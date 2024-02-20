@@ -9,7 +9,7 @@ import psycopg2  # Import psycopg2 for PostgreSQL connection
 def send_email(subject, body):
     sender_email = "missphumy@gmail.com"  # Update with your email
     receiver_email = "missphumy@gmail.com"  # Update with recipient email
-    password = "vvex vshy fhcr psxc"  # Update with your email password
+    password = "*** *** *** ***"  # Update with your email password
 
     message = MIMEMultipart()
     message["From"] = sender_email
